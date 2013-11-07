@@ -1,0 +1,14 @@
+#JSGF V1.0;
+
+/**
+ * JSGF Grammar for the sample application
+ */
+
+grammar sample;
+
+public <sentence> = <greet>;
+
+<greet> = (love|hate|like|angry|sad);
+
+/*<animal> = (bear | piglet | pooh | kitty | melody);
+*/
